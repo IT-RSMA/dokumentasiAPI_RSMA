@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Dashboard() {
   const [isRevealed, setIsRevealed] = useState(false);
   const [copyText, setCopyText] = useState("Copy to Clipboard");
+  const navigate = useNavigate();
 
   // String token acak untuk simulasi visual
   const token =
@@ -27,14 +29,14 @@ export default function Dashboard() {
 
         {/* Tengah: Navigasi */}
         <nav className="hidden md:flex flex-none items-center h-full gap-8">
-          <a href="/Dashboard" className="h-full flex items-center border-b-[3px] border-[#1E3A8A] text-slate-600 hover:text-teal-600 font-medium text-[15px] px-1 transition-colors"
+          <a navigate ="/dashboard" className="h-full flex items-center border-b-[3px] border-[#1E3A8A] text-slate-600 hover:text-teal-600 font-medium text-[15px] px-1 transition-colors"
           >
             Dashboard
           </a>
-          <a href="/Playground" className="h-full flex items-center text-[#1E3A8A] font-semibold text-[15px] px-1"
+          <a navigate ="/playground" className="h-full flex items-center text-[#1E3A8A] font-semibold text-[15px] px-1"
           > Playground
           </a>
-          <a href="/cumentation"  className="h-full flex items-center text-slate-600 hover:text-teal-600 font-medium text-[15px] px-1 transition-colors"
+          <a navigate ="/documentation"  className="h-full flex items-center text-slate-600 hover:text-teal-600 font-medium text-[15px] px-1 transition-colors"
           >
             Documentation
           </a>
