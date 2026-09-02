@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
+import { useNavigate } from "react-router-dom";
 
-// --- KOMPONEN KOTAK KODE ---
 const CodeBlock = ({ code, language = 'json' }) => (
   <div className="bg-gray-900 rounded-lg p-4 font-mono text-sm overflow-x-auto mb-6 shadow-inner">
     <pre className={language === 'json' ? 'text-blue-300' : 'text-green-400'}>
@@ -9,7 +9,6 @@ const CodeBlock = ({ code, language = 'json' }) => (
   </div>
 );
 
-// --- KOMPONEN TABEL ---
 const Table = ({ headers, rows }) => (
   <div className="overflow-x-auto mb-6 rounded-lg border border-gray-200">
     <table className="w-full text-sm text-left text-gray-600">
@@ -60,7 +59,6 @@ export default function App() {
     
     <div className="bg-white flex h-screen overflow-hidden font-sans text-gray-800">
 
-      
       {/* --- SIDEBAR --- */}
       <aside className="w-72 bg-gray-50 border-r border-gray-200 flex flex-col h-full z-10 shrink-0">
         <div className="p-6 pb-4 border-b border-gray-200">

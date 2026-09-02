@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
-import Playground from './pages/Playground'; // Pastikan Anda juga memasukkan TopNavBar ini ke dalam Playground.jsx
-import Documentation from './pages/Documentation'; // Pastikan Anda juga memasukkan TopNavBar ini ke dalam Documentation.jsx
+import Playground from './pages/Playground'; 
+import Documentation from './pages/Documentation';
 
 export default function App() {
   return (
