@@ -11,7 +11,7 @@ export default function Playground() {
         {/* Kiri: Logo */}
         <div className="flex-1 flex items-center h-full">
           <div className="text-[#1E3A8A] font-bold text-[18px]">
-            API Gateway RSMA
+            SIMRS API Gateway
           </div>
         </div>
 
@@ -39,9 +39,9 @@ export default function Playground() {
 
         {/* Kanan: Aksi & Profil */}
         <div className="flex-1 flex items-center justify-end gap-5">
-          {/* <button className="bg-[#1E3A8A] hover:bg-blue-900 text-white rounded-lg px-5 py-2 text-[14px] font-semibold transition-colors shadow-sm">
+          <button className="bg-[#1E3A8A] hover:bg-blue-900 text-white rounded-lg px-5 py-2 text-[14px] font-semibold transition-colors shadow-sm">
             Generate Token
-          </button> */}
+          </button>
           <img
             alt="User Profile"
             src="https://ui-avatars.com/api/?name=Admin+SIMRS&background=E2E8F0&color=1E3A8A"
@@ -66,39 +66,40 @@ export default function Playground() {
             </p>
 
             <button className="w-full bg-slate-100 hover:bg-slate-200 text-slate-700 py-2 rounded-lg text-[14px] font-semibold flex items-center justify-center gap-2 transition-colors">
-              <span className="material-symbols-outlined text-[18px]">New Request</span>
-              
+              <span className="material-symbols-outlined text-[18px]">
+                New Request
+              </span>
             </button> */}
           </div>
 
           <nav className="flex-1 overflow-y-auto flex flex-col gap-1 pr-4 py-2">
             <a
-              href="/igd"
-              className="flex items-center gap-3 px-6 py-2.5 text-slate-600 hover:bg-slate-50 rounded-r-full transition-colors"
+              href="#"
+              className="flex items-center gap-3 px-6 py-2.5 text-slate-600 hover:bg-slate-50 rounded-r-full transition-colors mt-1"
             >
               <span className="text-[14px] font-medium">IGD Service</span>
             </a>
 
             {/* Active Item */}
             <a
-              href="/ralan"
-              className="flex items-center gap-3 px-6 py-2.5 text-slate-600 hover:bg-slate-50 rounded-r-full transition-colors"
+              href="#"
+              className="flex items-center gap-3 px-6 py-2.5 text-slate-600 hover:bg-slate-50 rounded-r-full transition-colors mt-1"
             >
               <span className="text-[14px] font-medium">Ralan Service</span>
             </a>
 
             <a
-              href="/ranap"
-              className="flex items-center gap-3 px-6 py-2.5 text-slate-600 hover:bg-slate-50 rounded-r-full transition-colors mt-1"
+              href="#"
+              className="flex items-center gap-3 px-6 py-2.5 text-slate-600 hover:bg-slate-50 rounded-r-full transition-colors"
             >
               <span className="text-[14px] font-medium">Ranap Service</span>
             </a>
 
             <a
               href="/farmasi"
-              className="flex items-center gap-3 px-6 py-2.5 text-slate-600 hover:bg-slate-50 rounded-r-full transition-colors"
+              className="flex items-center gap-3 px-6 py-2.5 bg-[#89F5E7] text-[#005049] border-l-4 border-[#006F66] rounded-r-lg transition-colors shadow-sm"
             >
-              <span className="text-[14px] font-medium">Farmasi</span>
+              <span className="text-[14px] font-bold">Farmasi</span>
             </a>
 
             <a
@@ -123,9 +124,9 @@ export default function Playground() {
         </aside>
 
         {/* Main Content Area */}
-        <main className="flex-1 bg-[#F8FAFC] p-8 overflow-y-auto">
+        {/* <main className="flex-1 bg-[#F8FAFC] p-8 overflow-y-auto">
           <div className="max-w-5xl mx-auto space-y-6">
-            {/* Request Configuration Card */}
+           
             <div className="bg-white border border-slate-200 rounded-xl shadow-[0_2px_8px_rgba(0,0,0,0.04)] overflow-hidden">
               <div className="px-5 py-4 border-b border-slate-100 flex items-center justify-between">
                 <div className="flex items-center gap-2">
@@ -140,7 +141,6 @@ export default function Playground() {
 
               <div className="p-6 flex flex-col gap-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  {/* Bearer Token */}
                   <div className="flex flex-col gap-2">
                     <label className="text-[13px] font-bold text-slate-800">
                       Bearer Token
@@ -154,7 +154,7 @@ export default function Playground() {
                     </div>
                   </div>
 
-                  {/* Date Range Filter */}
+            
                   <div className="flex flex-col gap-2">
                     <label className="text-[13px] font-bold text-slate-800">
                       Date Range Filter
@@ -179,7 +179,7 @@ export default function Playground() {
                   </div>
                 </div>
 
-                {/* Request URL */}
+                
                 <div className="flex flex-col gap-2">
                   <label className="text-[13px] font-bold text-slate-800">
                     Request URL
@@ -205,7 +205,7 @@ export default function Playground() {
               </div>
             </div>
 
-            {/* Response Card */}
+           
             <div className="bg-white border border-slate-200 rounded-xl shadow-[0_2px_8px_rgba(0,0,0,0.04)] overflow-hidden flex flex-col">
               <div className="px-5 py-3 border-b border-slate-100 flex items-center justify-between bg-white">
                 <div className="flex items-center gap-3">
@@ -234,7 +234,7 @@ export default function Playground() {
                 </div>
               </div>
 
-              {/* Light Theme JSON Code Block */}
+              
               <div className="bg-[#FAFAFA] p-5 overflow-x-auto border-t border-slate-100">
                 <pre className="font-mono text-[13px] leading-relaxed text-slate-800">
                   <code>
@@ -343,7 +343,9 @@ export default function Playground() {
               </div>
             </div>
           </div>
-        </main>
+        </main> */}
+
+        
       </div>
     </div>
   );
