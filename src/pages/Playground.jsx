@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 
 export default function Playground() {
   const [method, setMethod] = useState("GET");
@@ -18,19 +17,19 @@ export default function Playground() {
         {/* Tengah: Navigasi */}
         <nav className="hidden md:flex flex-none items-center h-full gap-8">
           <a
-            href="/dashboard"
+            href="/Dashboard"
             className="h-full flex items-center text-slate-600 hover:text-teal-600 font-medium text-[15px] px-1 transition-colors"
           >
             Dashboard
           </a>
           <a
-            href="/playground"
+            href="/Playground"
             className="h-full flex items-center border-b-[3px] border-[#1E3A8A] text-[#1E3A8A] font-semibold text-[15px] px-1"
           >
             Playground
           </a>
           <a
-            href="/documentation"
+            href="/Documentation"
             className="h-full flex items-center text-slate-600 hover:text-teal-600 font-medium text-[15px] px-1 transition-colors"
           >
             Documentation

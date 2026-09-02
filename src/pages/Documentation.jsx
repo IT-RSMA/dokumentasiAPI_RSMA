@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { useNavigate } from "react-router-dom";
 
 const CodeBlock = ({ code, language = 'json' }) => (
   <div className="bg-gray-900 rounded-lg p-4 font-mono text-sm overflow-x-auto mb-6 shadow-inner">

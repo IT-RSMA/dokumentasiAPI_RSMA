@@ -27,22 +27,16 @@ export default function Dashboard() {
 
         {/* Tengah: Navigasi */}
         <nav className="hidden md:flex flex-none items-center h-full gap-8">
-          <a
-            href="/dashboard"
-            className="h-full flex items-center border-b-[3px] border-[#1E3A8A] text-slate-600 hover:text-teal-600 font-medium text-[15px] px-1 transition-colors"
+          <a href="/Dashboard" className="h-full flex items-center border-b-[3px] border-[#1E3A8A] text-slate-600 hover:text-teal-600 font-medium text-[15px] px-1 transition-colors"
           >
-            /Dashboard
+            Dashboard
           </a>
-          <a
-            href="/playground"
-            className="h-full flex items-center text-[#1E3A8A] font-semibold text-[15px] px-1"
-          >/Playground
+          <a href="/Playground" className="h-full flex items-center text-[#1E3A8A] font-semibold text-[15px] px-1"
+          > Playground
           </a>
-          <a
-            href="/documentation"
-            className="h-full flex items-center text-slate-600 hover:text-teal-600 font-medium text-[15px] px-1 transition-colors"
+          <a href="/cumentation"  className="h-full flex items-center text-slate-600 hover:text-teal-600 font-medium text-[15px] px-1 transition-colors"
           >
-            /Documentation
+            Documentation
           </a>
         </nav>
 
